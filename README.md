@@ -1,5 +1,19 @@
 ## How to run
 
-1. Clone this repo
-2. Run `flutter pub get`
-3. Run `flutter run` (remember open simulator or connect physical device, iOS auto run additional command `pod install`)
+1. Clone this repo.
+
+```
+git clone git@github.com:JuanelSincopado/cali-frontend.git
+```
+
+2. Get dependencies.
+
+```
+flutter pub get
+```
+
+3. Run the app in the browser.
+
+```
+flutter run -d chrome
+```
