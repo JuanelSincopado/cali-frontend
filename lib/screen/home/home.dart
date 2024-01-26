@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../provider/tramite_provider.dart';
+import '../../features/procedure/presentation/providers/procedure_provider.dart';
 import 'widget/custom_expasion_panel.dart';
 import 'widget/text_link.dart';
 
@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final tramiteProvider = Provider.of<TramiteProvider>(context);
+    final procedureProvider = Provider.of<ProcedureProvider>(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -19,26 +19,26 @@ class Home extends StatelessWidget {
         titleTextStyle: const TextStyle(color: Colors.white, fontSize: 20),
         centerTitle: true,
       ),
-      body: tramiteProvider.isLoading
+      body: procedureProvider.isLoading
           ? const Center(
               child: CircularProgressIndicator(),
             )
           : ListView.builder(
               padding: const EdgeInsets.all(20),
-              itemCount: tramiteProvider.tramites.length,
+              itemCount: procedureProvider.procedures.length,
               itemBuilder: (_, index) {
-                final tramite = tramiteProvider.tramites[index];
+                final procedure = procedureProvider.procedures[index];
 
-                bool hasSubOptions = tramite.hasSubOptions();
+                bool hasSubOptions = procedure.hasSubOptions();
 
                 return CustomExpansionPanel(
-                  title: tramite.title,
+                  title: procedure.title,
                   child: hasSubOptions
                       ? Container(
                           color: Colors.white,
                           padding: const EdgeInsets.all(8.0),
                           child: Column(
-                            children: tramite.options
+                            children: procedure.options
                                 .map(
                                   (e) => CustomExpansionPanel(
                                     title: e.title,
@@ -62,8 +62,8 @@ class Home extends StatelessWidget {
                           ),
                         )
                       : TextLink(
-                          title: tramite.options.first.title,
-                          url: tramite.options.first.url,
+                          title: procedure.options.first.title,
+                          url: procedure.options.first.url,
                         ),
                 );
               },

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/features/procedure/presentation/providers/procedure_provider.dart';
+import 'package:frontend/injection_container.dart';
 import 'package:provider/provider.dart';
 
-import 'provider/tramite_provider.dart';
 import 'screen/home/home.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initializeDependencies();
   runApp(const MyApp());
 }
 
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => TramiteProvider.init()),
+        ChangeNotifierProvider(create: (_) => ProcedureProvider.init()),
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
