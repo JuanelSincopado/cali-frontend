@@ -1,0 +1,109 @@
+[
+  {
+    "_id": "65b2e248db156e85ce38efd9",
+    "title": "Acuerdos de pago",
+    "options": [
+      {
+        "_id": "65b2f02dfe700cbb566c476b",
+        "title": "Automores",
+        "url": "https://tramites.valledelcauca.gov.co/tramites/89/facilidades-de-pago-para-los-deudores-de-obligaciones-tributarias/"
+      }
+    ]
+  },
+  {
+    "_id": "65b2e337db156e85ce38efdb",
+    "title": "Servicio social",
+    "options": [
+      {
+        "_id": "65b2f02dfe700cbb566c476c",
+        "title": "Inscripción de profesionales para participar en el sorteo de plazas de servicio obligatorio",
+        "url": "https://tramites.valledelcauca.gov.co/tramites/78/inscripcion-de-profesionales-para-participar-en-el-sorteo-de-plazas-de-servicio-social-obligatorio/"
+      }
+    ]
+  },
+  {
+    "_id": "65b2e3a6db156e85ce38efdc",
+    "title": "Prestadores de servicios de salud",
+    "options": [
+      {
+        "_id": "65b2f02dfe700cbb566c476d",
+        "title": "Reporte de novedades en el registro especial de prestadores de servicio de la salud",
+        "url": "https://tramites.valledelcauca.gov.co/tramites/82/reporte-de-novedades-en-el-registro-especial-de-prestadores-de-servicios-de-salud/"
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c476e",
+        "title": "Inscripción en el registro especial de prestadores de servicio de salud"
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c476f",
+        "title": "renovación de la habilitación de prestadores de servicio de salud"
+      }
+    ]
+  },
+  {
+    "_id": "65b2ebabdb156e85ce38efdd",
+    "title": "Pago de impuestos",
+    "options": [
+      {
+        "_id": "65b2f02dfe700cbb566c4770",
+        "title": "Automores",
+        "options": {
+          "title": "Impusto sobre vehículos automotores",
+          "url": "https://tramites.valledelcauca.gov.co/tramites/99/impuesto-sobre-vehiculos-automotores/"
+        }
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c4771",
+        "title": "Combustibles",
+        "options": {
+          "title": "Sobretasa departamental a la gasolina motor",
+          "url": "https://tramites.valledelcauca.gov.co/tramites/104/sobretasa-departamental-a-la-gasolina-motor/"
+        }
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c4772",
+        "title": "Registro",
+        "options": {
+          "title": "Impuesto de registro"
+        }
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c4773",
+        "title": "Consumo",
+        "options": [
+          {
+            "options": {
+              "title": "Impuesto al consumo de licores, vinos, aperitivos y similares de origen extranjero",
+              "url": "https://tramites.valledelcauca.gov.co/tramites/94/impuesto-al-consumo-de-licores-vinos-aperitivos-y-similares-de-origen-extranjero/"
+            }
+          },
+          {
+            "options": {
+              "title": "Impuesto al Consumo de Cervezas, Sifones, Refajos y Mezclas de Origen Extranjero",
+              "url": "https://tramites.valledelcauca.gov.co/tramites/90/impuesto-al-consumo-de-cervezas-sifones-refajos-y-mezclas-de-origen-extranjero/"
+            }
+          },
+          {
+            "options": {
+              "title": "Impuesto al consumo de licores, vinos, aperitivos y similares de origen nacional"
+            }
+          },
+          {
+            "options": {
+              "title": "Impuesto al Consumo de Cervezas, Sifones, Refajos y Mezclas Nacionales",
+              "url": "https://tramites.valledelcauca.gov.co/tramites/91/impuesto-al-consumo-de-cervezas-sifones-refajos-y-mezclas-nacionales/"
+            }
+          }
+        ]
+      },
+      {
+        "_id": "65b2f02dfe700cbb566c4774",
+        "title": "Loterias",
+        "options": {
+          "title": "Impuesto de Loterías Foráneas y sobre Premios de Lotería",
+          "url": "https://tramites.valledelcauca.gov.co/tramites/97/impuesto-de-loterias-foraneas-y-sobre-premios-de-loteria/"
+        }
+      }
+    ]
+  }
+]
